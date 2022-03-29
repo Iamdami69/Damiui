@@ -10,7 +10,7 @@ Then...
 
 # Usage
 ```
-import { damiUi } from  'damiUi';
+import { damiUi } from  'damiui';
 
 damiUi({
   target: '.myDiv',
