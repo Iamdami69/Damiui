@@ -18,6 +18,7 @@ damiUi({
   shadowType: '#10',
   borderRadius: '5%',
   touchableOpacityDuration: 100,
+  touchFeedback: 100,
 });
 
 
@@ -29,4 +30,5 @@ damiuishadow Currently support 3 options, all of which are listed below
 * *target* - accepts HTML class/id/element *'#myDiv' - 'section'*
 * *shadowType* - accept a string value from *'#0' - '#11'*
 * *borderRadius* - _accept type of string (css units)
-* *touchableOpacityDuration* - _accept type of number defaults to 0
+* *touchableOpacityDuration* - _accept type of number defaults to 0ms
+* *touchFeedback* - _if supported, gives user a vibrate feedback, accept type of number defaults to 0ms
